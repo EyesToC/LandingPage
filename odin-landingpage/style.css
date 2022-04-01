@@ -1,0 +1,238 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 10px;
+  display: inline-block;
+}
+
+ul, li, a, div, section {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* NAVBAR */
+.navbar {
+  background: rgb(244, 64, 51);
+  background: linear-gradient(90deg, rgba(244, 64, 51, 1) 62%, rgba(255, 236, 18, 1) 95%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 135px 0 135px;
+  height: auto;
+}
+
+.navbar h1 {
+  color: #ffec12;
+  font-family: monospace;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  text-shadow: 3px 3px black;
+}
+
+.navbar img {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  margin-right: 5px;
+}
+
+.nav-item {
+  display: flex;
+  margin-left: 30px;
+}
+
+.nav-item a {
+  color: white;
+  text-shadow: 1px 1px black;
+  font-family: monospace;
+}
+
+.nav-item a:hover {
+  background-color: orange;
+  color: red;
+}
+
+/* HERO */
+.hero-section {
+  background: rgb(244, 64, 51);
+  background: linear-gradient(90deg, rgba(244, 64, 51, 1) 62%, rgba(255, 236, 18, 1) 95%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 135px 0 135px;
+}
+
+.hero-section .container {
+  order: -1;
+}
+
+.hero-section h2 {
+  color: #ffec12;
+  text-shadow: 2px 2px black;
+  margin-bottom: -5px;
+}
+
+.hero-text {
+  color: white;
+  text-shadow: 1px 1px black;
+  font-family: monospace;
+  width: 19rem;
+}
+
+.hero-section button {
+  width: 100px;
+  border-radius: 10px;
+  background-color: #ffec12;
+  color: red;
+  font-weight: bolder;
+  font-family: monospace;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
+
+.hero-image {
+  background-image: url("comic-background.jpeg");
+  border: 3px solid black;
+  border-radius: 5%;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* FOE SECTION */
+.foe-section {
+  text-align: center;
+  padding: 15px;
+}
+
+.foe-section h2 {
+  text-shadow: 0.8px 0.8px grey;
+}
+
+.foe-section .container {
+  display: flex;
+  justify-content: space-evenly;
+  text-shadow: 0.5px 0.5px grey;
+}
+
+.foe-image {
+  width: 160px;
+  height: 160px;
+  border-radius: 10%;
+}
+
+.foe-bio {
+  width: 160px;
+}
+
+/* QUOTE */
+.iron-quote {
+  background-color: #EEEEEE;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 138.5px;
+  padding: 100px;
+  font-size: 20px;
+}
+
+.quote {
+  width: 500px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.speaker {
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 15px;
+}
+
+/* CALL TO ACTION */
+.cta-section .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-image: url("comic-page.jpeg");
+  background-size: cover;
+  background-position: top;
+  padding-bottom: 5px;
+}
+
+.banner {
+  border: 5px solid orange;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  color: orange;
+  text-shadow: 4px 4px black;
+  border-radius: 5px;
+  height: 50px;
+  padding: 20px;
+  font-size: 30px;
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.cta-section button {
+  background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 30%, rgba(255,217,51,1) 95%);
+  color: orange;
+  height: 30px;
+  width: 100px;
+  border: 5px solid orange;
+  border-radius: 10px;
+
+  font-weight: bold;
+}
+
+.cta-section button:hover {
+  background-color: #ffec12;
+  color: red;
+  text-shadow: 0 0;
+}
+
+.cta-message {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.cta-section h3 {
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-decoration-thickness: 5px;
+}
+
+/* FOOTER */
+.ftr {
+  background: rgb(244, 64, 51);
+  background: linear-gradient(90deg, rgba(244, 64, 51, 1) 62%, rgba(255, 236, 18, 1) 95%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-size: 0.7rem;
+}
